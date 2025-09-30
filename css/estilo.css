@@ -1,0 +1,107 @@
+html, body {
+	background: #000000 !important;
+	color: #fff !important;
+	font-family: arial;
+}
+
+@font-face {
+  font-family: 'DS-Digital';
+  src: url(../font/ds_digital/DS-DIGI.TTF) format('truetype');
+}
+
+/* Histórico */
+.history-container {
+	max-width: 350px;
+	margin: 30px auto 0 auto;
+	background: none;
+	border-radius: 20px;
+	border: white solid 2.5px;
+	box-shadow: 1px 1px 20px #6893eecc;
+	color: #fff;
+	padding: 10px 30px 10px 30px;
+}
+.history-container h2 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+    color: #fff;
+}
+#history-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#history-list li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 6px 0;
+    border-bottom: 1px solid #fff2;
+    color: #fff;
+	font-size: 1em;
+}
+.remove-history {
+	background: #dc3545;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 3px 10px;
+	cursor: pointer;
+	font-size: 0.95em;
+	margin-left: 10px;
+	transition: background 0.2s;
+}
+.remove-history:hover {
+	background: #a71d2a;
+}
+.timer-container label, .timer-container select, .timer-container input[type="text"] {
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+#timer-input-div {
+	margin-bottom: 15px;
+}
+/*
+ * Timer estilizado por Vinicius Palmieri Serafim Lossavero
+ */
+.timer-container {
+	max-width: 350px;
+	margin: 30px auto;
+	padding: 10px 30px 30px 30px;
+	background: none;
+	border-radius: 20px;
+	border: white solid 2.5px;
+	box-shadow: 1px 1px 20px #6893eecc;
+	text-align: center;
+	color: #fff;
+}
+
+#icon{
+	width: 10em;
+}
+
+#timer-display {
+	font-size: 3.5em;
+	font-family: 'DS-Digital', sans-serif;
+	margin: 20px 0 30px 0;
+    color: #fff;
+	letter-spacing: 2px;
+}
+
+.timer-controls button {
+	font-size: 1em;
+	padding: 10px 22px;
+	margin: 0 8px;
+	border: white solid 1px;
+	border-radius: 6px;
+	background: #000000;
+	box-shadow: 1px 1px 10px #6893eecc;
+	color: #fff;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.timer-controls button:hover {
+	background: #ffffffff;
+    color: #000;
+}

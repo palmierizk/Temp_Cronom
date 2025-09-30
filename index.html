@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro e Temporizador</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/png" href="image/icon.png">
+    <body>
+    <div class="timer-container">
+        <img id="icon" src="image/icon.png" alt="Icone">
+        <h1>Cronômetro e Temporizador</h1>
+        <!-- Controles de modo e entrada de tempo serão inseridos via JS -->
+        <div id="timer-display">00:00:00:00</div>
+        <div class="timer-controls">
+            <button id="start-btn">Iniciar</button>
+            <button id="pause-btn">Pausar</button>
+            <button id="reset-btn">Resetar</button>
+        </div>
+    </div>
+    <div class="history-container">
+        <h2>Histórico</h2>
+        <ul id="history-list"></ul>
+    </div>
+    <script src="js/timer.js"></script>
+</body>
